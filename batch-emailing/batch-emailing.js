@@ -19,7 +19,7 @@ grist.ready({
   let mappedColumns = null;
   
   // DOM Elements
-  const recipientsList = document.getElementById('recipientsList');
+  const recipientsList = document.getElementById('recipientsList'); // is null ?
   const recipientsCount = document.getElementById('recipientsCount');
   const removedEmailsList = document.getElementById('removedEmails');
   const removedListSection = document.getElementById('removedList');
@@ -29,7 +29,7 @@ grist.ready({
   const subjectInput = document.getElementById('subject');
   const emailContent = document.getElementById('emailContent');
   const newEmailInput = document.getElementById('newEmail');
-  const addEmailBtn = document.getElementById('addEmail');
+  const addEmailBtn = document.getElementById('addEmail'); // is null ?
   const sendEmailBtn = document.getElementById('sendEmail');
   const statusMessage = document.getElementById('statusMessage');
   
